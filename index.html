@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Antonio"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=League Spartan"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo antonio">THE PLANETS</div>
+
+      <ul class="nav-links">
+        <div class="menu">
+          <li><a class="menuPlanet navChecked" id="mercury" href="#mercury">MERCURY</a></li>
+          <li><a class="menuPlanet" id="venus" href="#venus">VENUS</a></li>
+          <li><a class="menuPlanet" id="earth" href="#earth">EARTH</a></li>
+          <li><a class="menuPlanet" id="mars" href="#mars">MARS</a></li>
+          <li><a class="menuPlanet" id="jupiter" href="#jupiter">JUPITER</a></li>
+          <li><a class="menuPlanet" id="saturn" href="#saturn">SATURN</a></li>
+          <li><a class="menuPlanet" id="uranus" href="#uranus">URANUS</a></li>
+          <li><a class="menuPlanet" id="neptune" href="#neptune">NEPTUNE</a></li>
+        </div>
+      </ul>
+    </nav>
+    <hr class="navBottom" />
+    <div class="middleDiv flex">
+      <div class="images">
+        <img class="planetImg" id="planetImg" src="" alt="planet Image" />
+        <img class="structureImg none" id="structureImg" src=""/>
+      </div>
+      <div class="planetInfo">
+        <h1 class="antonio planetName" id="planetName"></h1>
+        <p id="planetDesc" class="planetDesc"></p>
+        <br />
+        <a class="source" id="source" href="#">Source: Wikipedia</a>
+
+        <div class="options">
+          <div class="option flex" id="overview">
+            <p class="number">01</p>
+             <p class="choice">OVERVIEW</p>
+          </div>
+          <div class="option flex" id="internalStucture">
+            <p class="number">02</p>
+             <p class="choice antonio">INTERNAL STRUCTURE</p>
+          </div>
+          <div class="option flex" id="surfaceGeo">
+            <p class="number">03</p>
+             <p class="choice antonio">SURFACE GEOLOGY</p>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+    <div class="bottomDiv flex">
+        <div class="bottomInfo">
+          <p class="info"">ROTATION TIME
+          </p>
+          <h1 class="value" id="rotationTime"></h1>
+        </div>
+        <div class="bottomInfo">
+          <p class="info">REVOLUTION TIME</p>
+          <h1 class="value" id="revolutionTime"></h1>
+        </div>
+        <div class="bottomInfo">
+          <p class="info" >RADIUS</p>
+          <h1 class="value" id="radius"></h1>
+        </div>
+        <div class="bottomInfo">
+          <p class="info" >AVERAGE TEMP.</p>
+          <h1 class="value" id="avarageTemp"></h1>
+        </div>
+    </div>
+    <script src="js/render.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

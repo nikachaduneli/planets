@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background-color: rgb(8, 8, 41);
+    background-image: url(https://planets-fact-site-whro.vercel.app/assets/background-stars-00f213fd.svg);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html{
+    font-size: 62%;
+}
+
+.antonio {
+    font-family: Antonio;
+    color: white
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: -1.05px;
+    color: #fff;
+    margin: 16px 0 16px 24px;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.menuPlanet{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: League Spartan, sans-serif;
+}
+.planetName{
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.flex {
+    display: flex;
+}
+.middleDiv{
+    justify-content: space-between;
+    margin: 10rem 16rem 10rem 16rem;
+    padding: 0 7rem 0 7rem;
+}
+.navBottom{
+    background-color: rgb(34, 36, 38);
+    opacity: .2;
+    mix-blend-mode: normal;
+}
+
+.planetDesc {
+    width: 32rem;
+    font-size: 10px;
+    color: gray;
+    font-family: League Spartan, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.options{
+    margin-top: 3rem;
+    font-family: League Spartan, sans-serif;
+
+}
+.option{
+    padding: 1rem;
+    margin-top: .5rem;
+    border: 1px solid rgba(255,255,255,.2);
+    cursor: pointer;
+}
+.number{
+    color: gray;
+    font-weight: bold;
+}
+.planetImg{
+    max-height: 25rem;
+}
+.choice {
+    color: white;
+    margin-left: 1rem;
+    font-family: League Spartan, sans-serif;
+    font-weight: bold;
+}
+
+.option:hover {
+    background-color: #ffffff48;
+}
+.bottomDiv{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;}
+
+.bottomInfo{
+    border: 1px solid rgba(255,255,255,.2);
+    padding:2rem;
+    width: 30rem;
+}
+
+.info{
+    color: gray;
+    font-family: League Spartan, sans-serif;
+    font-weight: bold;
+}
+
+.value {
+    color: white;
+    font-family: League Spartan, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+.source {
+    color: gray;
+    font-family: League Spartan, sans-serif;
+    cursor: pointer;
+}
+
+.images{
+    position: relative;
+}
+
+.structureImg{
+    position: absolute;
+    left: 5.6rem;
+    top: 18rem;
+    height: 17rem;
+}
+.none{
+    display: none;
+}
+.typeChecked{
+    color:red;
+}
